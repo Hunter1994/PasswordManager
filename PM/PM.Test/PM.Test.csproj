@@ -42,6 +42,20 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PM.Application\PM.Application.csproj">
+      <Project>{0e2601c4-bb5e-46fa-8d68-b623ab86366e}</Project>
+      <Name>PM.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PM.Core\PM.Core.csproj">
+      <Project>{64903519-f12b-4d0a-b4de-f8bfd83cc81e}</Project>
+      <Name>PM.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PM.EntityFramework\PM.EntityFramework.csproj">
+      <Project>{4dd8abd5-6647-4650-9f9a-9f0bf778b68d}</Project>
+      <Name>PM.EntityFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -246,6 +246,24 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PM.Application\PM.Application.csproj">
+      <Project>{0e2601c4-bb5e-46fa-8d68-b623ab86366e}</Project>
+      <Name>PM.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PM.Core\PM.Core.csproj">
+      <Project>{64903519-f12b-4d0a-b4de-f8bfd83cc81e}</Project>
+      <Name>PM.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PM.EntityFramework\PM.EntityFramework.csproj">
+      <Project>{4dd8abd5-6647-4650-9f9a-9f0bf778b68d}</Project>
+      <Name>PM.EntityFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PM.WebApi\PM.WebApi.csproj">
+      <Project>{1b7798fc-99e4-4dcf-8388-6d7e57a66a4b}</Project>
+      <Name>PM.WebApi</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
