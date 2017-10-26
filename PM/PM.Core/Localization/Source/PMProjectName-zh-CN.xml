@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="zh-CN">
+  <texts>
+    <text name="Users" value="用户"/>
+    <text name="Roles" value="角色"/>
+    <text name="Tenants" value="租户"/>
+  </texts>
+</localizationDictionary>

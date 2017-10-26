@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+  <texts>
+    <text name="Users" value="Users"/>
+    <text name="Roles" value="Roles"/>
+    <text name="Tenants" value="Tenants"/>
+  </texts>
+</localizationDictionary>
