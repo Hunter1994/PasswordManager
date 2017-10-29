@@ -9,7 +9,6 @@ namespace PM.Test
 {
     public class PMTestBase: AbpIntegratedTestBase<PMTestModule>
     {
-
-
+       
     }
 }
