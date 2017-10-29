@@ -116,6 +116,7 @@
     <Compile Include="Authorization\PMProjectNameAuthorizationProvider.cs" />
     <Compile Include="Authorization\Roles\PMRoleConfig.cs" />
     <Compile Include="Authorization\Roles\StaticRoleNames.cs" />
+    <Compile Include="Authorization\Users\UserRegistrationManager.cs" />
     <Compile Include="Configuration\PMSettingNames.cs" />
     <Compile Include="Configuration\PMSettingProvider.cs" />
     <Compile Include="Editions\EditionManager.cs" />
@@ -129,7 +130,7 @@
     <Compile Include="Authorization\Roles\RoleStore.cs" />
     <Compile Include="MultiTenant\Tenant.cs" />
     <Compile Include="MultiTenant\TenantManager.cs" />
-    <Compile Include="PMDataModule.cs" />
+    <Compile Include="PMCoreModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Authorization\Users\User.cs" />
     <Compile Include="Authorization\Users\UserManager.cs" />

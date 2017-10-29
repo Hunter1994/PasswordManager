@@ -18,7 +18,7 @@ using PM.Core.Users;
 namespace PM.Core
 {
     [DependsOn(typeof(AbpZeroCoreModule))]
-    public class PMDataModule:AbpModule
+    public class PMCoreModule:AbpModule
     {
         public override void PreInitialize()
         {

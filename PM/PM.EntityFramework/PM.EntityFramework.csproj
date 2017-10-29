@@ -151,6 +151,7 @@
     <Compile Include="Migrations\SeedData\HostRoleAndUserCreator.cs" />
     <Compile Include="Migrations\SeedData\InitialHostDbBuilder.cs" />
     <Compile Include="Migrations\SeedData\TenantRoleAndUserBuilder.cs" />
+    <Compile Include="PMDataModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
