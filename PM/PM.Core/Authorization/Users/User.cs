@@ -11,6 +11,8 @@ namespace PM.Core.Users
 {
     public class User:AbpUser<User>
     {
+        public const string DefaultPassword = "123qwe";
+
         /// <summary>
         /// 创建随机密码
         /// </summary>
