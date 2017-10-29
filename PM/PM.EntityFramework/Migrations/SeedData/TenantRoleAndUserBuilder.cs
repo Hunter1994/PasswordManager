@@ -70,7 +70,7 @@ namespace PM.EntityFramework.Migrations.SeedData
                 _context.Users.FirstOrDefault(u => u.TenantId == _tenantId && u.UserName == User.AdminUserName);
             if (adminUser == null)
             {
-                adminUser = User.CreateTenantAdminUser(_tenantId, "qq962410314@163.com", User.DefaultPassword);
+                adminUser = User.CreateTenantAdminUser(_tenantId, "qq96241031@163.com", User.DefaultPassword);
                 adminUser.IsEmailConfirmed = true;
                 adminUser.IsActive = true;
 

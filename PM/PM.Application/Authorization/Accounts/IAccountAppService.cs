@@ -8,7 +8,7 @@ using PM.Application.Authorization.Accounts.Dto;
 
 namespace PM.Application.Authorization.Accounts
 {
-    internal interface  IAccountAppService:IApplicationService
+    public interface  IAccountAppService:IApplicationService
     {
         /// <summary>
         /// 租户可用是否可用
