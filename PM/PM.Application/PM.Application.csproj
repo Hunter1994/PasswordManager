@@ -125,6 +125,13 @@
     <Compile Include="Authorization\Accounts\Dto\Register.cs" />
     <Compile Include="Authorization\Accounts\Dto\TenantAvaliablityState.cs" />
     <Compile Include="Authorization\Accounts\IAccountAppService.cs" />
+    <Compile Include="Configuration\ConfigurationAppService.cs" />
+    <Compile Include="Configuration\Dto\ChangeUiThemeInput.cs" />
+    <Compile Include="Configuration\IConfigurationAppService.cs" />
+    <Compile Include="Configuration\Ui\UiThemeInfo.cs" />
+    <Compile Include="Configuration\Ui\UiThemes.cs" />
+    <Compile Include="MultiTenancy\Dto\CreateTenantDto.cs" />
+    <Compile Include="MultiTenancy\Dto\EditTenantDto.cs" />
     <Compile Include="PMApplicationModule.cs" />
     <Compile Include="PMAppServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

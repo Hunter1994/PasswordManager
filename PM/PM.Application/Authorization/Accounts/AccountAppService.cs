@@ -38,7 +38,7 @@ namespace PM.Application.Authorization.Accounts
                 input.UserName,
                 input.Password, false);
 
-            //是电子邮件确认需要登录
+            //电子邮件确认需要登录
             var isEmailConfirmationRequiredForLogin = await SettingManager.GetSettingValueAsync<bool>(
                 AbpZeroSettingNames.UserManagement.IsEmailConfirmationRequiredForLogin);
 

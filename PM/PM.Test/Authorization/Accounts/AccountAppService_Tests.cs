@@ -37,6 +37,19 @@ namespace PM.Test.Authorization.Accounts
             isTenantAvaliable.State.ShouldBe(TenantAvaliablityState.NotFound);
         }
 
+        [Fact]
+        public async Task Register()
+        {
+            var canlogin =await _accountAppService.Register(new RegisterInput()
+            {
+                Name = "张三",
+                UserName = "zhangsan",
+                EmailAddress = "123@qq.com",
+                Surname = "张",
+                Password = "123456"
+            });
+            canlogin.CanLogin.ShouldBe(true);
+        }
 
     }
 }
