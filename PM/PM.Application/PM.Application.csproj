@@ -132,6 +132,9 @@
     <Compile Include="Configuration\Ui\UiThemes.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantDto.cs" />
     <Compile Include="MultiTenancy\Dto\EditTenantDto.cs" />
+    <Compile Include="MultiTenancy\Dto\TenantDto.cs" />
+    <Compile Include="MultiTenancy\ITenantAppService.cs" />
+    <Compile Include="MultiTenancy\TenantAppService.cs" />
     <Compile Include="PMApplicationModule.cs" />
     <Compile Include="PMAppServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
