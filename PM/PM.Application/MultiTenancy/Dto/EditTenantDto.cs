@@ -9,13 +9,18 @@ using PM.Core.MultiTenant;
 
 namespace PM.Application.MultiTenancy.Dto
 {
-    [AutoMapTo(typeof(Tenant))]
+    [AutoMapTo(typeof (Tenant))]
     public class EditTenantDto
     {
         [Required]
         [StringLength(Tenant.MaxTenancyNameLength)]
-         public string TenancyName { get; set; }
+        public string TenancyName { get; set; }
 
+        [Required]
+        [StringLength(Tenant.MaxNameLength)]
+        public string Name { get; set; }
+
+        public bool IsActive { get; set; }
 
     }
 }
