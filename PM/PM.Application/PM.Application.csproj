@@ -143,6 +143,9 @@
     <Compile Include="Roles\Dto\RoleDto.cs" />
     <Compile Include="Roles\IRoleAppService.cs" />
     <Compile Include="Roles\RoleAppService.cs" />
+    <Compile Include="Sessions\Dto\GetCurrentLoginInformationsOutput.cs" />
+    <Compile Include="Sessions\Dto\TenantLoginInfoDto.cs" />
+    <Compile Include="Sessions\Dto\UserLoginInfoDto.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PM.Core\PM.Core.csproj">
