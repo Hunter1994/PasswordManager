@@ -38,7 +38,7 @@ namespace PM.Application
             return TenantManager.GetByIdAsync(AbpSession.GetTenantId());
         }
 
-        protected virtual void CheckError(IdentityResult identityResult)
+        protected virtual void CheckErrors(IdentityResult identityResult)
         {
             identityResult.CheckErrors(LocalizationManager);
         }

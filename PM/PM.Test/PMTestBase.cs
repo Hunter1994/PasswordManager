@@ -275,7 +275,7 @@ namespace PM.Test
         /// Gets current user if <see cref="IAbpSession.UserId"/> is not null.
         /// Throws exception if it's null.
         /// </summary>
-        protected async Task<User> GetCurrentUserAsync()
+        protected async Task<Core.Users.User> GetCurrentUserAsync()
         {
             var userId = AbpSession.GetUserId();
             return await UsingDbContext(context => context.Users.SingleAsync(u => u.Id == userId));

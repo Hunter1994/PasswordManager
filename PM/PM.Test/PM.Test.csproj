@@ -176,6 +176,7 @@
     <Compile Include="PMTestModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sessions\SessionAppService_Test.cs" />
+    <Compile Include="Users\UserAppService_Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PM.Application\PM.Application.csproj">
