@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Http;
 using Abp.Application.Services;
 using Abp.Configuration.Startup;
 using Abp.Modules;
@@ -23,7 +24,8 @@ namespace PM.WebApi
                 .DynamicApiControllerBuilder.ForAll<IApplicationService>(typeof (PMApplicationModule).Assembly, "app")
                 .Build();
 
-            //Configuration.Modules.AbpWebApi().HttpConfiguration.Filters.Add(new HostAuthenticationFilter());
+            //表示通过OWIN中间件进行身份验证的身份验证筛选器（认证类型为Bearer）
+            Configuration.Modules.AbpWebApi().HttpConfiguration.Filters.Add(new HostAuthenticationFilter("Bearer"));
 
         }
 
